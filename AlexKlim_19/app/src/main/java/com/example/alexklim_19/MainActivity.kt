@@ -1,8 +1,6 @@
 package com.example.alexklim_19
 
 import android.annotation.SuppressLint
-import android.annotation.TargetApi
-import android.os.Build
 import android.os.Bundle
 import android.webkit.WebResourceRequest
 import android.webkit.WebView
@@ -21,10 +19,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         webView = findViewById(R.id.webView)
-        webView.getSettings().setJavaScriptEnabled(true)
-        webView.loadUrl("https://developer.alexanderklimov.ru/android")
         webView.webViewClient = MyWebViewClient()
-
+        webView.getSettings().javaScriptEnabled = true
+        webView.loadUrl("https://developer.alexanderklimov.ru/android/")
     }
 
     private class MyWebViewClient : WebViewClient() {
