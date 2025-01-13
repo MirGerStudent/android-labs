@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="General">
+        <CheckBoxPreference
+            android:key="notifications"
+            android:title="Enable Notifications" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="wifi"
+            android:summary="@string/wifi_summary"
+            android:title="@string/wifi_title"/>
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="hints"
+            android:summary="@string/hints_summary"
+            android:title="@string/hints_title"/>
+        <EditTextPreference
+            android:defaultValue="6"
+            android:key="cool_number"
+            android:summary="@string/number_summary"
+            android:title="@string/number_title"
+            android:dialogTitle="@string/number_dialogTitle" />
+    </PreferenceCategory>
+</PreferenceScreen>

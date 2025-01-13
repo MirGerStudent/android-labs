@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">lab_26</string>
+    <string name="settings_button_name">Настройки</string>
+    <string name="text_in_app">Тут будет какой-то текст</string>
+    <string name="cool_number_text">Хммм...</string>
+
+    <string name="wifi_title">Wi-Fi</string>
+    <string name="wifi_summary">Вкл. или выкл. сеть WiFi</string>
+    <string name="hints_title">Подсказки</string>
+    <string name="hints_summary">Показывать подсказки</string>
+    <string name="number_title">Крутое число</string>
+    <string name="number_summary">Устанавливает крутое число от которого зависит поведение приложения</string>
+    <string name="number_dialogTitle">Введите кртое число в диапозоне от 6 до 24:</string>
+</resources>
